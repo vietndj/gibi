@@ -16,7 +16,7 @@ const PROOFS = [
   "Team Media Tuấn (Cần Thơ) đang ghép nhạc Ghibli vào CapCut cho video triệu view 🎶",
 
   // NHÓM 3: GIAO DỊCH & CỘNG ĐỒNG SKOOL
-  "Hải Đăng (Hà Nội) vừa tham gia Cộng đồng Đạo diễn Hoạt hình AI trên Skool 🏛️",
+  "Hải Đăng (Hà Nội) vừa tham gia Cộng đồng Học viên trên Skool 🏛️",
   "Chị Trâm Anh (Đà Lạt) vừa thanh toán 149.000đ, nhận ID kích hoạt sau 1 phút ⚡",
   "Anh Sơn (Nha Trang) vừa được giảng viên Viet Mac hỗ trợ Zalo 1-1 gỡ rối cài Extension 🤝",
   "Bác sĩ Khánh (Hà Nội) vừa xuất bản video hoạt hình Ghibli kể chuyện không cần lộ mặt 🌟",

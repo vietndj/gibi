@@ -325,8 +325,8 @@ export const DEFAULT_CONTENT: PageContent = {
     },
     {
       id: "05",
-      title: "Quyền Tham Gia Cộng Đồng Đạo Diễn Hoạt Hình AI (Skool)",
-      desc: "Làm một mình dễ nản chí? Tham gia Group kín trên Skool, giao lưu và nhận phản hồi trực tiếp từ giảng viên Viet Mac và các thành viên. Duy trì động lực, cập nhật công nghệ mới liên tục."
+      title: "Quyền Tham Gia Cộng Đồng Học Viên Trên Skool",
+      desc: "Tham gia nhóm kín trên Skool để xem video hướng dẫn, hỏi đáp thắc mắc, giao lưu cùng mọi người và nhận sự hỗ trợ trực tiếp từ tác giả Viet Mac trong quá trình thực hành."
     }
   ],
 
