@@ -703,7 +703,7 @@ function CheckoutContent() {
           <h1 style={{ fontFamily: t.fontDisplay, fontSize: "clamp(22px, 4.2vw, 38px)", fontWeight: 500, lineHeight: 1.15, letterSpacing: "-0.018em", margin: "0 0 14px", color: t.textBase ?? "#fff" }}>
             Bạn đang hoàn tất đơn hàng<br />
             <em style={{ color: t.accent, fontStyle: "normal", fontWeight: 500 }}>
-              {(c as any).checkoutTitle ? <span dangerouslySetInnerHTML={{ __html: (c as any).checkoutTitle }} /> : <>Trợ Lý GIBI AI Studio<br />Phim Hoạt Hình Ghibli Không Lộ Mặt</>}
+              {(c as any).checkoutTitle ? <span dangerouslySetInnerHTML={{ __html: (c as any).checkoutTitle }} /> : <>Trợ Lý GIBI AI Studio<br />Phim Hoạt Hình Ghibli</>}
             </em>
           </h1>
           <p style={{ fontSize: 15, color: t.textMuted ?? "#888", maxWidth: 520, margin: "0 auto 12px", lineHeight: 1.6 }}>
