@@ -773,7 +773,7 @@ function CheckoutContent() {
               <Lbl>Bạn nhận được gì ngay hôm nay</Lbl>
               <H>Truy cập ngay sau xác nhận</H>
               {((c as any).checkoutFeatures || [
-                "Trợ lý GIBI AI Studio (Chrome Extension) — Khóa mặt, Teleprompter, Cầu nối Veo 3",
+                "Trợ lý GIBI AI Studio (Chrome Extension) — Khóa mặt, Quét Bối cảnh 1-Click, Cầu nối Veo 3",
                 "Khóa học Lộ Trình Thực Chiến 7 Ngày — từ ép khuôn đến hậu kỳ CapCut",
                 "Quyền sở hữu vĩnh viễn — truy cập mọi lúc, mọi nơi, mọi thiết bị",
                 "Thư viện Âm thanh Hoạt hình Ghibli Độc quyền",

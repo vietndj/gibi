@@ -12,7 +12,7 @@ export function SkillsSection() {
     <Sec id="skills" maxWidth={860}>
       <FadeIn>
         <div style={{ textAlign: "center", marginBottom: 54 }}>
-          <Label>4 NGUYÊN LÝ KIẾN TRÚC KHUNG HÌNH</Label>
+          <Label>{c.skillsLabel || "4 NĂNG LỰC CỐT LÕI CỦA TRỢ LÝ GIBI"}</Label>
           <SH typed>{c.skillsHeading}</SH>
         </div>
       </FadeIn>

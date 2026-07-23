@@ -223,32 +223,26 @@ export const DEFAULT_CONTENT: PageContent = {
     {
       title: "Quét Live-action → Anime 1-Click",
       desc: "Chụp ảnh bạn đang mặc đồ, ngồi trong bối cảnh thật. AI tự bóc tách quần áo + tư thế + bối cảnh rồi ghép vào nhân vật Ghibli của bạn."
-    },
-    {
-      title: "Phòng thu Teleprompter tích hợp",
-      desc: "Kịch bản tự cuộn trên Side Panel. Bạn chỉ việc đọc theo — giọng thoại trôi chảy, tự tin ngay từ lần thu âm đầu tiên."
     }
   ],
 
   // ── Solution ──
   solutionLabel: "HỆ THỐNG GIBI AI STUDIO",
   solutionHeading: "Đừng cố làm thủ công. Hãy dùng Trợ lý tự động hóa.",
-  solutionSub: "Đây là 4 năng lực cốt lõi mà Trợ lý GIBI trang bị cho bạn (điều mà các công cụ AI thông thường không hỗ trợ):",
+  solutionSub: "Đây là 3 năng lực cốt lõi mà Trợ lý GIBI trang bị cho bạn (điều mà các công cụ AI thông thường không hỗ trợ):",
   solutionItems: [
     "❌ Nhân vật AI lệch mặt ➞ ✅ Khóa mặt bất biến: Mã hóa khuôn mặt thật thành nét vẽ anime Ghibli 2D, đồng nhất 100% qua mọi phân cảnh.",
     "❌ Kịch bản rời rạc ➞ ✅ Storyboard 16 khung hình (Lưới 4x4): Phân cảnh chặt chẽ, video có nhịp điệu điện ảnh hấp dẫn.",
-    "❌ Giọng đọc ngắc ngứ ➞ ✅ Teleprompter cuộn chữ tự động: Thu âm trực tiếp trên Side Panel, giọng đọc tự nhiên, đầy tự tin.",
     "❌ Video đơ cứng ➞ ✅ Đạo diễn chuyển động Veo 3 & Hậu kỳ CapCut: Biến ảnh tĩnh thành phim hoạt hình sống động với âm thanh cảm xúc."
   ],
 
   // ── Skills ──
-  skillsLabel: "4 NĂNG LỰC CỐT LÕI CỦA TRỢ LÝ GIBI",
-  skillsHeading: "Bốn công nghệ được hệ thống hóa để bạn áp dụng ngay:",
+  skillsLabel: "3 TÍNH NĂNG CỐT LÕI CỦA TRỢ LÝ GIBI",
+  skillsHeading: "Ba công nghệ được hệ thống hóa để bạn áp dụng ngay:",
   skillCards: [
     { n: "01", title: "Khóa Mặt Nhân Vật Bất Biến", desc: "Phân tích cấu trúc xương hàm, kiểu tóc, nốt ruồi để đóng băng khuôn mặt thật thành hằng số AI. Đạt độ giống mặt thật lên đến 95%. Nhân vật đồng nhất từ cận cảnh đến toàn cảnh." },
     { n: "02", title: "Storyboard Lưới 4x4 (16 Khung Hình)", desc: "AI tự phân cảnh kịch bản thành 16 ô storyboard chặt chẽ. Bóc tách kịch bản voiceover khớp thời lượng từng khung hình. Video có nhịp điệu điện ảnh hấp dẫn." },
-    { n: "03", title: "Phòng Thu Teleprompter Tích Hợp", desc: "Kịch bản tự cuộn trên Side Panel trình duyệt. Tùy chỉnh tốc độ đọc, tạm dừng linh hoạt. Thu âm voiceover trôi chảy, truyền cảm chỉ trong một lần ghi âm." },
-    { n: "04", title: "Cầu Nối Google Flow (Veo 3)", desc: "Tự động trích xuất prompt video từ Gemini và dán vào Google Flow Veo 3 chỉ với 1-Click. Nạp ảnh tĩnh làm First Frame chuẩn xác. Tạo chuyển động camera anime nghệ thuật kiểu Miyazaki." }
+    { n: "03", title: "Cầu Nối Google Flow (Veo 3)", desc: "Tự động trích xuất prompt video từ Gemini và dán vào Google Flow Veo 3 chỉ với 1-Click. Nạp ảnh tĩnh làm First Frame chuẩn xác. Tạo chuyển động camera anime nghệ thuật kiểu Miyazaki." }
   ],
 
   // ── Mid CTA ──
@@ -268,7 +262,6 @@ export const DEFAULT_CONTENT: PageContent = {
     "Bị camera-shy, ngại lộ mặt nên bỏ lỡ cơ hội thương hiệu",
     "Tạo ảnh AI bị lệch mặt, méo hình giữa các cảnh",
     "Quy trình thủ công rườm rà, mất 4-5 tiếng mới xong",
-    "Giọng đọc ngập ngừng vì phải nhớ kịch bản",
     "Video đơ cứng không có chuyển cảnh tự nhiên",
     "Âm thanh rời rạc, không có nhạc nền phù hợp"
   ],
@@ -276,7 +269,6 @@ export const DEFAULT_CONTENT: PageContent = {
     "Tự tin ra hàng loạt video Ghibli mà không cần lộ diện",
     "Khuôn mặt nhân vật đồng nhất 100% mọi phân cảnh",
     "Quy trình 1-Click tự động, hoàn thành trong 30 phút",
-    "Giọng thoại trôi chảy cuốn hút nhờ Teleprompter",
     "Video chuyển động mượt mà qua Google Flow Veo 3",
     "Âm thanh Ghibli hòa quyện, giữ chân người xem tuyệt đỉnh"
   ],
@@ -291,7 +283,7 @@ export const DEFAULT_CONTENT: PageContent = {
   stages: [
     { n: "[1]", title: "Ép Khuôn & Khóa Mặt Bất Biến", desc: "Phân tích cấu trúc xương hàm, kiểu tóc để đóng băng khuôn mặt thật thành hằng số AI. Đạt độ giống mặt thật lên đến 95%.", sub: "Ngày 1 — Sở hữu nhân vật Ghibli độc bản" },
     { n: "[2]", title: "Lập Lưới Storyboard & Kịch Bản", desc: "Xây dựng phân cảnh 16 ô (Lưới 4x4) để AI vẽ toàn bộ diễn biến đồng bộ. Bóc tách kịch bản voiceover khớp thời lượng.", sub: "Ngày 2 — Kịch bản & phân cảnh hoàn chỉnh" },
-    { n: "[3]", title: "Đạo Diễn Thực Địa & Teleprompter", desc: "Chụp ảnh Live-action bằng điện thoại để AI bóc tách trang phục/bối cảnh. Sử dụng Teleprompter cuộn chữ trên Side Panel để thu âm trôi chảy.", sub: "Ngày 3-4 — Cá nhân hóa & thu âm giọng nói" },
+    { n: "[3]", title: "Đạo Diễn Thực Địa & Bối Cảnh Anime", desc: "Chụp ảnh Live-action bằng điện thoại để AI bóc tách trang phục, tư thế và bối cảnh thành nét vẽ Ghibli.", sub: "Ngày 3-4 — Cá nhân hóa bối cảnh & hình ảnh" },
     { n: "[4]", title: "Đạo Diễn Chuyển Động Veo 3", desc: "Cầu nối tự động trích xuất Code Prompt sang Google Flow. Viết lệnh camera anime nghệ thuật kiểu Miyazaki, nạp First Frame chuẩn xác.", sub: "Ngày 5-6 — Biến ảnh tĩnh thành video sống động" },
     { n: "[5]", title: "Hậu Kỳ CapCut & Ghép Âm Thanh Ghibli", desc: "Cầm tay chỉ việc dựng CapCut. Cắt ghép nhịp điệu phim lôi cuốn, thêm phụ đề tự động và lồng nhạc Ghibli lấy nước mắt người xem.", sub: "Ngày 7 — Video hoàn chỉnh, sẵn sàng xuất bản" }
   ],

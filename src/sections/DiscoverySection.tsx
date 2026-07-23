@@ -173,7 +173,7 @@ export function DiscoverySection() {
               }}>
                 <div style={{ display: "flex", flexDirection: "column", gap: 16, order: isMobile ? 1 : isEven ? 2 : 1 }}>
                   <div style={{ fontFamily: t.fontMono, fontSize: 12, fontWeight: 500, color: "var(--cl-accent)", letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                    // NGUYÊN LÝ 0{i + 1}
+                    // TÍNH NĂNG 0{i + 1}
                   </div>
                   <h4 style={{ fontFamily: t.fontDisplay, fontSize: "clamp(20px, 2.5vw, 24px)", fontWeight: 500, lineHeight: 1.15, letterSpacing: "-0.018em", color: "#fff", margin: 0 }}>
                     {item.title}
