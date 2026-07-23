@@ -361,6 +361,29 @@ export const DEFAULT_CONTENT: PageContent = {
     }
   ],
 
+  checkoutFaqs: [
+    {
+      q: "1. \"Đây có phải là khóa học online kéo dài rườm rà không?\"",
+      a: "Không. Đây KHÔNG PHẢI khóa học lý thuyết suông. Bộ sản phẩm bao gồm: Trợ lý GIBI AI Studio (Chrome Extension) + Bộ Video hướng dẫn thực hành ngắn gọn + Bộ Prompt AI chuẩn hóa. Bạn sử dụng công cụ AI miễn phí của Gemini để tự tạo phim hoạt hình ngay lập tức mà không phải tốn hàng chục giờ ngồi học."
+    },
+    {
+      q: "2. \"Tôi không biết vẽ hay chưa từng làm video AI thì có làm được không?\"",
+      a: "Hoàn toàn được. Bạn không cần bất kỳ kỹ năng vẽ hay chỉnh sửa rườm rà nào. Chỉ cần xem video hướng dẫn ngắn, copy-paste các câu lệnh Prompt chuẩn hóa vào Gemini miễn phí và nhấn nút 1-Click trên Extension là tự làm được phim."
+    },
+    {
+      q: "3. \"Tôi có phải tốn thêm chi phí duy trì phần mềm AI hàng tháng không?\"",
+      a: "Không. Trợ lý GIBI AI hướng dẫn bạn khai thác tối đa các công cụ AI hoàn toàn miễn phí của Google Gemini và Google Flow để tạo ảnh & video mà không tốn thêm bất kỳ chi phí duy trì hàng tháng nào."
+    },
+    {
+      q: "4. \"Thanh toán 149.000đ xong tôi sẽ nhận sản phẩm như thế nào?\"",
+      a: "Hệ thống thanh toán quét QR tự động 100%. Ngay sau khi chuyển khoản thành công, bạn sẽ nhận được email chứa link tải Extension, Bộ Video hướng dẫn, Bộ Prompt chuẩn hóa và nút tham gia cộng đồng Skool ngay lập tức."
+    },
+    {
+      q: "5. \"Nếu trong quá trình làm gặp rắc rối kỹ thuật thì có ai hỗ trợ không?\"",
+      a: "Đích thân tác giả Viet Mac và đội ngũ sẽ hỗ trợ 1-1 qua Zalo & nhóm kín Skool. Bất kỳ vướng mắc nào về cài đặt Extension hay chạy Prompt Gemini đều được gỡ rối ngay."
+    }
+  ],
+
   // ── Footer ──
   footerBrand: "GIBI",
   footerDot: ".",
