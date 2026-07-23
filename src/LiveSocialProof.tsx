@@ -1,26 +1,26 @@
 import { useEffect, useState } from "react";
 
 const PROOFS = [
-  // NHÓM 1: POP-UP "SỞ HỮU VŨ KHÍ & TÀI LIỆU" (Kích thích lòng tham)
-  "Tuấn Anh (Hà Nội) vừa tải về thành công Bộ Prompt AI Kịch bản 2 cột cho ChatGPT 🤖",
-  "Chị Lan (Chủ Shop - HCM) vừa nhận trọn bộ Tài liệu quy hoạch 7 loại B-roll minh họa 📁",
-  "Hoàng Dũng (Đà Nẵng) vừa mở khóa kho dữ liệu Giải mã cấu trúc Video Trend Âu/Hàn 🔍",
-  "Trang Phạm (Hải Phòng) vừa lưu về máy Sơ đồ Cài đặt Ánh sáng 3 Điểm chuẩn Studio 💡",
-  "Thảo Vy (Solopreneur) vừa nhận đặc quyền Tặng Kèm Trợ Lý AI Kịch bản 🎁",
+  // NHÓM 1: CÀI ĐẶT EXTENSION & KÍCH HOẠT SẢN PHẨM
+  "Tuấn Anh (Hà Nội) vừa cài đặt thành công Trợ lý GIBI AI Studio trên Chrome 🎬",
+  "Chị Lan (HCM) vừa kích hoạt trọn bộ Trợ lý GIBI AI + 5 Quà tặng độc quyền 🎁",
+  "Hoàng Dũng (Đà Nẵng) vừa tải về Thư viện Âm thanh Hoạt hình Ghibli Độc quyền 🎵",
+  "Trang Phạm (Hải Phòng) vừa lưu Cheat Sheet Phím tắt & Lệnh GIBI AI Studio ⚡",
+  "Thảo Vy (Đà Lạt) vừa mở khóa Khóa học Thực chiến Dựng Phim Ghibli bằng CapCut ✂️",
 
-  // NHÓM 2: POP-UP "TIẾN ĐỘ THỰC HÀNH CỦA HỌC VIÊN" (Xóa bỏ nỗi sợ mua về vứt xó)
-  "Anh Minh (Hà Nội) đang xem bài giảng Kỹ thuật Chuyển cảnh tàng hình (Cut on Action) ✂️",
-  "Vy (Chủ Spa - Bình Dương) vừa truy cập Module Luân chuyển Ma trận Cỡ cảnh Toàn - Trung - Cận 🎥",
-  "Đức Dũng (HCM) đang học bài Chữa bệnh đơ: Giải phóng ngôn ngữ cơ thể trước ống kính 🧘‍♂️",
-  "Chị Mai (Bắc Ninh) vừa mở khóa bài học Luật Nhịp điệu 3 giây giữ chân khách hàng ⏱️",
-  "Team Media Tuấn (Cần Thơ) đang xem hướng dẫn Giữ vững Kỷ luật đường mắt 1/3 📐",
+  // NHÓM 2: TIẾN ĐỘ THỰC HÀNH & KẾT QUẢ
+  "Anh Minh (Hà Nội) vừa tạo xong Nhân vật Ghibli độc bản Khóa mặt bất biến 100% 👤",
+  "Vy (Chủ Spa - Bình Dương) vừa xuất phim hoạt hình Ghibli 16 khung hình đầu tiên 🎞️",
+  "Đức Dũng (HCM) đang xem hướng dẫn Quét Live-action sang Anime 1-Click 🚀",
+  "Chị Mai (Bắc Ninh) vừa tạo chuyển động mượt mà qua Google Flow Veo 3 🎥",
+  "Team Media Tuấn (Cần Thơ) đang ghép nhạc Ghibli vào CapCut cho video triệu view 🎶",
 
-  // NHÓM 3: POP-UP "GIAO DỊCH THỰC TẾ & SỰ ĐỒNG HÀNH" (Tăng độ Trust tuyệt đối)
-  "Hải Đăng (Kinh doanh TMĐT) vừa thiết lập xong Góc quay Talking Head cố định 🎙️",
-  "Chị Trâm Anh (Đà Lạt) vừa chốt cọc 500k để giữ vĩnh viễn Ưu đãi Quà tặng AI ⚡",
-  "Anh Sơn (Nha Trang) vừa được hệ thống cấp quyền vào Nhóm hỗ trợ sửa video trực tiếp 🤝",
-  "Bác sĩ Khánh (Hà Nội) vừa nâng cấp lên Gói Expert để chuẩn hóa kênh nhân hiệu 🚀",
-  "Chị Phương (Đồng Nai) vừa quét QR thanh toán tự động, nhận ID đăng nhập sau 2 phút 📩"
+  // NHÓM 3: GIAO DỊCH & CỘNG ĐỒNG SKOOL
+  "Hải Đăng (Hà Nội) vừa tham gia Cộng đồng Đạo diễn Hoạt hình AI trên Skool 🏛️",
+  "Chị Trâm Anh (Đà Lạt) vừa thanh toán 149.000đ, nhận ID kích hoạt sau 1 phút ⚡",
+  "Anh Sơn (Nha Trang) vừa được giảng viên Viet Mac hỗ trợ Zalo 1-1 gỡ rối cài Extension 🤝",
+  "Bác sĩ Khánh (Hà Nội) vừa xuất bản video hoạt hình Ghibli kể chuyện không cần lộ mặt 🌟",
+  "Chị Phương (Đồng Nai) vừa quét QR thanh toán tự động, vào học ngay trên Skool 📩"
 ];
 
 const TIME_LABELS = [
