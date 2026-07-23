@@ -320,8 +320,8 @@ export const DEFAULT_CONTENT: PageContent = {
     },
     {
       id: "04",
-      title: "Bản Đồ Phím Tắt & Cheat Sheet GIBI AI Studio",
-      desc: "Hay quên câu lệnh khi quản lý luồng prompt AI? Tờ phao cứu sinh ghi nhớ nhanh các phím lệnh điều khiển Gemini và Google Flow. Tăng tốc quy trình gấp 3 lần."
+      title: "Bản Đồ Logic Quy Trình Dựng Video AI",
+      desc: "Sơ đồ trực quan hướng dẫn chính xác loại dữ liệu cần cung cấp (ảnh thật, văn bản, âm thanh) và công cụ AI tương ứng cho từng bước (Gemini, GIBI Extension, Veo 3, CapCut). Giúp bạn làm chủ quy trình dựng video AI hiệu quả gấp 3 lần."
     },
     {
       id: "05",

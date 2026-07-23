@@ -771,7 +771,7 @@ function CheckoutContent() {
                 "Thư viện Âm thanh Hoạt hình Ghibli Độc quyền",
                 "Khóa học Dựng phim Ghibli bằng CapCut (PC & Mobile)",
                 "Bộ 50 Mẫu Kịch bản Kể chuyện Hành trình Cá nhân",
-                "Cheat Sheet Phím tắt & Lệnh GIBI AI Studio",
+                "Bản Đồ Logic Quy Trình Dựng Video AI (Đầu vào dữ liệu & Công cụ)",
                 "Quyền vào Cộng đồng Đạo diễn Hoạt hình AI (Skool)",
               ]).map((item: string, i: number) => <Ck key={i}>{item}</Ck>)}
             </Card>
