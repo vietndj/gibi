@@ -520,9 +520,9 @@ function GuaranteeBox() {
       </div>
       {/* Box 2: 1-1 Review Guarantee */}
       <div style={{ background: t.card2, border: `1px solid ${t.accent}33`, borderRadius: Math.max(8, t.cardRadius - 4), padding: "16px 18px" }}>
-        <p style={{ fontSize: 15, fontWeight: 500, color: t.accent, marginBottom: 8 }}>🛡️ Đồng hành & Gỡ rối 1-1 cùng giảng viên</p>
+        <p style={{ fontSize: 15, fontWeight: 500, color: t.accent, marginBottom: 8 }}>🛡️ Đồng hành & Gỡ rối 1-1 cùng tác giả</p>
         <p style={{ fontSize: 15, color: t.textBody ?? "#666", lineHeight: 1.65, margin: 0 }}>
-          Bất kể bạn gặp khó khăn ở bước nào — từ setup góc máy, hướng đặt đèn, tối ưu thiết bị âm thanh đến lên kịch bản — hãy nhắn cho mình để nhận ngay lịch gọi Zoom trực tiếp gỡ rối và tối ưu hóa 1-1.
+          {c.guarantee || "Bất kể bạn gặp khó khăn ở bước nào — từ cài đặt Extension, khóa mặt AI đến dựng CapCut — nhắn Zalo trực tiếp cho Viet Mac để được gỡ rối 1-1 ngay."}
         </p>
       </div>
     </div>
