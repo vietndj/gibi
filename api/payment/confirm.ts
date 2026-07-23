@@ -11,7 +11,7 @@ export default async function handler(
   try {
     const { name = "", phone = "", email = "", url = "", transactionId = "", rowIndex } = req.body || {};
     const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz3s4V-cItvUcM3g-oZy0mAWsxGXr9UhLhz_qPgXWZgFNTT9KgKZxu391m-aRv8rz8U/exec";
-    const MAKE_WEBHOOK_URL = process.env.MAKE_WEBHOOK_URL || "YOUR_MAKE_WEBHOOK_URL";
+    const MAKE_WEBHOOK_URL = process.env.MAKE_WEBHOOK_URL || "https://hook.us2.make.com/757fh7q14wtk7wxgatsjdruogra1xjap";
 
     let updateData: any = {};
     if (!GOOGLE_SCRIPT_URL) {
