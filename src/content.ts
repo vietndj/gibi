@@ -389,7 +389,7 @@ export const DEFAULT_CONTENT: PageContent = {
   footerDot: ".",
   footerTagline: "\"Kể chuyện đâu cần lộ diện,\nGhibli AI vẽ, tạo nên phim hay.\"",
   footerLinks: [],
-  footerCopyright: "COPYRIGHT 2025 | GIBI AI STUDIO — FEDU ACADEMY",
+  footerCopyright: "COPYRIGHT 2026 | GIBI AI STUDIO",
 
   blocksMeta: {
     order: ["hero", "pain", "cycle", "discovery", "solution", "skills", "midCta", "before-after", "roadmap", "instructor", "bonus", "cta", "footer"],

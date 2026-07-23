@@ -887,7 +887,7 @@ function CheckoutContent() {
             GIBI<span style={{ color: t.accent }}>.</span>
           </div>
           <p style={{ fontSize: 15, color: t.textMuted ?? "#444", lineHeight: 1.8 }}>
-            © 2026 GIBI AI Studio — FEDU Academy · gibi.fedu.vn · Mọi quyền được bảo lưu.<br />
+            © 2026 GIBI AI Studio<br />
             <a href="mailto:vietndj@gmail.com" style={{ color: t.textMuted ?? "#555" }}>vietndj@gmail.com</a> | Zalo: 0934.688.632
           </p>
         </div>
