@@ -295,7 +295,7 @@ export const DEFAULT_CONTENT: PageContent = {
   instructorName: "Nguyễn Đức Việt",
   instructorTitle: "Chuyên gia đào tạo làm phim, thiết kế đồ họa & Founder FEDU Academy (video.fedu.vn)",
   instructorBio: [
-    "Với hơn 10 năm kinh nghiệm giảng dạy Multimedia trực tuyến và hơn 50.000 học viên trên toàn Việt Nam, mình hiểu rất rõ những rào cản kỹ thuật, sự hoang mang vì rối loạn công cụ và đặc biệt là nỗi sợ camera của người hướng nội. Triết lý của mình là: Không lý thuyết suông — Chỉ có thực hành và ra sản phẩm ngay lập tức. Với GIBI AI Studio, mình đã biến mọi sự phức tạp thành những nút bấm 1-Click dành riêng cho bạn!"
+    "Với hơn 10 năm kinh nghiệm giảng dạy Multimedia trực tuyến và hơn 50.000 người theo học trên toàn Việt Nam, mình hiểu rất rõ những rào cản kỹ thuật, sự hoang mang vì rối loạn công cụ và đặc biệt là nỗi sợ camera của người hướng nội. Triết lý của mình là: Không lý thuyết suông — Chỉ có thực hành và ra sản phẩm ngay lập tức. Với GIBI AI Studio, mình đã biến mọi sự phức tạp thành những nút bấm 1-Click dành riêng cho bạn!"
   ],
 
   // ── Bonus ──
@@ -325,7 +325,7 @@ export const DEFAULT_CONTENT: PageContent = {
     },
     {
       id: "05",
-      title: "Quyền Tham Gia Cộng Đồng Học Viên Trên Skool",
+      title: "Quyền Tham Gia Cộng Đồng Skool",
       desc: "Tham gia nhóm kín trên Skool để xem video hướng dẫn, hỏi đáp thắc mắc, giao lưu cùng mọi người và nhận sự hỗ trợ trực tiếp từ tác giả Viet Mac trong quá trình thực hành."
     }
   ],

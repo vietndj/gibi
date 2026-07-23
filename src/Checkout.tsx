@@ -691,7 +691,7 @@ function CheckoutContent() {
       {/* ── URGENCY BAR ── */}
       <div style={{ background: t.accent, padding: "10px 16px", textAlign: "center" }}>
         <p style={{ fontSize: 13, fontWeight: 500, letterSpacing: "0.04em", lineHeight: 1.4, color: t.accentText }}>
-          ⚡ ƯU ĐÃI ĐẶC BIỆT — CHỈ DÀNH CHO HỌC VIÊN ĐÃ ĐĂNG KÝ — HOÀN TẤT NGAY ĐỂ GIỮ GIÁ NÀY
+          ⚡ ƯU ĐÃI ĐẶC BIỆT — CHỈ DÀNH CHO BẠN ĐÃ ĐĂNG KÝ — HOÀN TẤT NGAY ĐỂ GIỮ GIÁ NÀY
         </p>
       </div>
 
@@ -766,7 +766,7 @@ function CheckoutContent() {
                 "Khóa học Dựng phim Ghibli bằng CapCut (PC & Mobile)",
                 "Bộ 50 Mẫu Kịch bản Kể chuyện Hành trình Cá nhân",
                 "Bản Đồ Logic Quy Trình Dựng Video AI (Đầu vào dữ liệu & Công cụ)",
-                "Quyền tham gia Cộng đồng Học viên trên Skool",
+                "Quyền tham gia Cộng đồng Skool",
               ]).map((item: string, i: number) => <Ck key={i}>{item}</Ck>)}
             </Card>
 
