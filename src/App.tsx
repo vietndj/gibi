@@ -28,48 +28,20 @@ export default function App() {
     <div style={{ background: t.bg, color: t.textBase ?? "#f0f0f0", fontFamily: t.fontBody, minHeight: "100vh", overflowX: "hidden" }}>
       <ThemeSyncer />
 
-      {!isHidden("hero") && <HeroSection />}
-      <Div />
-
-      {!isHidden("pain") && <PainSection />}
-      <Div />
-
-      {!isHidden("attention") && <AttentionSection />}
-      <Div />
-
-      {!isHidden("rule") && <RuleSection />}
-      <Div />
-
-      {!isHidden("cycle") && <CycleSection />}
-      <Div />
-
-      {!isHidden("discovery") && <DiscoverySection />}
-      <Div />
-
-      {!isHidden("solutions") && <SolutionsSection />}
-      <Div />
-
-      {!isHidden("solution") && <SolutionSection />}
-      <Div />
-
-      {!isHidden("skills") && <SkillsSection />}
-      <Div />
-
-      {!isHidden("midCta") && <MidCtaSection />}
-      <Div />
-
-      {!isHidden("before-after") && <BeforeAfterSection />}
-      <Div />
-
-      {!isHidden("roadmap") && <RoadmapSection />}
-      <Div />
-
-      {!isHidden("instructor") && <InstructorSection />}
-      <Div />
-
-      {!isHidden("bonus") && <BonusSection />}
-      <Div />
-
+      {!isHidden("hero") && <><HeroSection /><Div /></>}
+      {!isHidden("pain") && <><PainSection /><Div /></>}
+      {!isHidden("attention") && <><AttentionSection /><Div /></>}
+      {!isHidden("rule") && <><RuleSection /><Div /></>}
+      {!isHidden("cycle") && <><CycleSection /><Div /></>}
+      {!isHidden("discovery") && <><DiscoverySection /><Div /></>}
+      {!isHidden("solutions") && <><SolutionsSection /><Div /></>}
+      {!isHidden("solution") && <><SolutionSection /><Div /></>}
+      {!isHidden("skills") && <><SkillsSection /><Div /></>}
+      {!isHidden("midCta") && <><MidCtaSection /><Div /></>}
+      {!isHidden("before-after") && <><BeforeAfterSection /><Div /></>}
+      {!isHidden("roadmap") && <><RoadmapSection /><Div /></>}
+      {!isHidden("instructor") && <><InstructorSection /><Div /></>}
+      {!isHidden("bonus") && <><BonusSection /><Div /></>}
       {!isHidden("cta") && <CtaSection />}
 
       {!isHidden("footer") && (
