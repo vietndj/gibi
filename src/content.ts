@@ -217,12 +217,12 @@ export const DEFAULT_CONTENT: PageContent = {
   discoverySub: "Bằng việc cài đặt một Trợ lý AI siêu nhẹ ngay trên trình duyệt Chrome, hệ thống này giúp bạn:",
   discoveryItems: [
     {
-      title: "Khóa mặt bất biến (FINAL_FACE_JSON)",
+      title: "Khóa mặt nhân vật giống bạn 95%",
       desc: "Đóng băng khuôn mặt thật của bạn thành nét vẽ Ghibli, giữ đồng nhất 100% qua mọi cảnh phim. Không bao giờ bị lệch mặt nhân vật nữa."
     },
     {
-      title: "Quét Live-action → Anime 1-Click",
-      desc: "Chụp ảnh bạn đang mặc đồ, ngồi trong bối cảnh thật. AI tự bóc tách quần áo + tư thế + bối cảnh rồi ghép vào nhân vật Ghibli của bạn."
+      title: "Quét bối cảnh thật thành Anime 1-Click",
+      desc: "Chụp ảnh bạn đang mặc đồ, ngồi trong bối cảnh thật. AI tự bóc tách trang phục, góc phòng và bối cảnh để đưa vào phim hoạt hình Ghibli của bạn."
     }
   ],
 
@@ -240,9 +240,9 @@ export const DEFAULT_CONTENT: PageContent = {
   skillsLabel: "3 TÍNH NĂNG CỐT LÕI CỦA TRỢ LÝ GIBI",
   skillsHeading: "Ba công nghệ được hệ thống hóa để bạn áp dụng ngay:",
   skillCards: [
-    { n: "01", title: "Khóa Mặt Nhân Vật Bất Biến", desc: "Phân tích cấu trúc xương hàm, kiểu tóc, nốt ruồi để đóng băng khuôn mặt thật thành hằng số AI. Đạt độ giống mặt thật lên đến 95%. Nhân vật đồng nhất từ cận cảnh đến toàn cảnh." },
-    { n: "02", title: "Storyboard Lưới 4x4 (16 Khung Hình)", desc: "AI tự phân cảnh kịch bản thành 16 ô storyboard chặt chẽ. Bóc tách kịch bản voiceover khớp thời lượng từng khung hình. Video có nhịp điệu điện ảnh hấp dẫn." },
-    { n: "03", title: "Cầu Nối Google Flow (Veo 3)", desc: "Tự động trích xuất prompt video từ Gemini và dán vào Google Flow Veo 3 chỉ với 1-Click. Nạp ảnh tĩnh làm First Frame chuẩn xác. Tạo chuyển động camera anime nghệ thuật kiểu Miyazaki." }
+    { n: "01", title: "Khóa Mặt Nhân Vật Giống Bạn 95%", desc: "AI phân tích cấu trúc khuôn mặt và kiểu tóc để đóng băng khuôn mặt thật thành nét vẽ Ghibli độc bản. Nhân vật giữ nguyên nét mặt đồng nhất từ cận cảnh đến toàn cảnh." },
+    { n: "02", title: "Tự Động Phân Cảnh Phim (Lưới 16 Khung Hình)", desc: "AI tự động chia kịch bản thành 16 phân cảnh điện ảnh chặt chẽ, bóc tách thời lượng lời thoại khớp từng khung hình — giúp phim có nhịp điệu lôi cuốn." },
+    { n: "03", title: "Cầu Nối Tự Động 1-Click Sang Veo 3", desc: "Tự động chuyển toàn bộ câu lệnh tạo video và hình ảnh sang công cụ AI Veo 3 chỉ với 1-Click. Giúp bạn tạo ra các thước phim chuyển động mượt mà, tự nhiên." }
   ],
 
   // ── Mid CTA ──
@@ -281,11 +281,11 @@ export const DEFAULT_CONTENT: PageContent = {
   roadmapIframeUrl: "https://www.youtube.com/embed/YOUR_TUTORIAL_VIDEO_ID?rel=0&modestbranding=1",
   roadmapChaptersHeading: "Lộ trình chinh phục video hoạt hình AI của bạn:",
   stages: [
-    { n: "[1]", title: "Ép Khuôn & Khóa Mặt Bất Biến", desc: "Phân tích cấu trúc xương hàm, kiểu tóc để đóng băng khuôn mặt thật thành hằng số AI. Đạt độ giống mặt thật lên đến 95%.", sub: "Ngày 1 — Sở hữu nhân vật Ghibli độc bản" },
-    { n: "[2]", title: "Lập Lưới Storyboard & Kịch Bản", desc: "Xây dựng phân cảnh 16 ô (Lưới 4x4) để AI vẽ toàn bộ diễn biến đồng bộ. Bóc tách kịch bản voiceover khớp thời lượng.", sub: "Ngày 2 — Kịch bản & phân cảnh hoàn chỉnh" },
+    { n: "[1]", title: "Tạo Nhân Vật Hoạt Hình Khóa Mặt Giống Bạn 95%", desc: "AI phân tích đường nét khuôn mặt và kiểu tóc của bạn để tạo ra một nhân vật hoạt hình Ghibli độc bản — giữ nguyên nét mặt giống bạn qua mọi phân cảnh.", sub: "Ngày 1 — Sở hữu nhân vật Ghibli độc bản" },
+    { n: "[2]", title: "Tự Động Phân Cảnh & Lập Kịch Bản Phim", desc: "AI tự phân chia câu chuyện của bạn thành từng cảnh phim chi tiết, khớp từng lời thoại và thời lượng — giúp bộ phim có nhịp điệu cuốn hút như phim điện ảnh.", sub: "Ngày 2 — Kịch bản & phân cảnh hoàn chỉnh" },
     { n: "[3]", title: "Biến Bối Cảnh Thật Thành Phim Hoạt Hình", desc: "Chụp ảnh đời thực của bạn (trang phục, góc làm việc, không gian sống). AI tự động chuyển hóa thành phim hoạt hình Ghibli — nơi nhân vật chính là chính bạn và bối cảnh hoàn toàn từ cuộc sống thực của bạn.", sub: "Ngày 3-4 — Cá nhân hóa nhân vật & bối cảnh thực" },
-    { n: "[4]", title: "Đạo Diễn Chuyển Động Veo 3", desc: "Cầu nối tự động trích xuất Code Prompt sang Google Flow. Viết lệnh camera anime nghệ thuật kiểu Miyazaki, nạp First Frame chuẩn xác.", sub: "Ngày 5-6 — Biến ảnh tĩnh thành video sống động" },
-    { n: "[5]", title: "Hậu Kỳ CapCut & Ghép Âm Thanh Ghibli", desc: "Cầm tay chỉ việc dựng CapCut. Cắt ghép nhịp điệu phim lôi cuốn, thêm phụ đề tự động và lồng nhạc Ghibli lấy nước mắt người xem.", sub: "Ngày 7 — Video hoàn chỉnh, sẵn sàng xuất bản" }
+    { n: "[4]", title: "Biến Ảnh Tĩnh Thành Video Chuyển Động Sống Động", desc: "Trợ lý AI tự động trích xuất câu lệnh và chuyển sang công cụ tạo video Veo 3 chỉ với 1-Click. Biến các bức ảnh Ghibli tĩnh thành những thước phim hoạt hình mượt mà, chuyển động tự nhiên.", sub: "Ngày 5-6 — Tạo chuyển động mượt mà" },
+    { n: "[5]", title: "Dựng Phim CapCut & Ghép Âm Thanh Ghibli Cảm Xúc", desc: "Hướng dẫn chi tiết từng bước cắt ghép phim trên CapCut (PC & Điện thoại), tự động tạo phụ đề và lồng ghép âm thanh Ghibli giúp video chạm đến cảm xúc người xem.", sub: "Ngày 7 — Phim hoàn chỉnh, sẵn sàng xuất bản" }
   ],
 
   // ── Instructor ──
