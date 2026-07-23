@@ -6,7 +6,7 @@ const PROOFS = [
   "Chị Lan (HCM) vừa kích hoạt trọn bộ Trợ lý GIBI AI + 5 Quà tặng độc quyền 🎁",
   "Hoàng Dũng (Đà Nẵng) vừa tải về Thư viện Âm thanh Hoạt hình Ghibli Độc quyền 🎵",
   "Trang Phạm (Hải Phòng) vừa lưu Cheat Sheet Phím tắt & Lệnh GIBI AI Studio ⚡",
-  "Thảo Vy (Đà Lạt) vừa mở khóa Khóa học Thực chiến Dựng Phim Ghibli bằng CapCut ✂️",
+  "Thảo Vy (Đà Lạt) vừa mở khóa Bộ Video Hướng Dẫn Dựng Phim Ghibli bằng CapCut ✂️",
 
   // NHÓM 2: TIẾN ĐỘ THỰC HÀNH & KẾT QUẢ
   "Anh Minh (Hà Nội) vừa tạo xong Nhân vật Ghibli độc bản Khóa mặt bất biến 100% 👤",

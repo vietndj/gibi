@@ -144,7 +144,7 @@ export const DEFAULT_CONTENT: PageContent = {
   heroSub: "Phần lớn người muốn làm video kể chuyện không kém về ý tưởng. Họ kẹt vì sợ camera, vì nhân vật AI bị lệch mặt mỗi cảnh, và vì quy trình AI quá rối rắm. Trợ lý GIBI AI giải quyết đúng ba thứ đó.",
   heroCta: "SỞ HỮU TRỢ LÝ GIBI AI NGAY",
   heroVideoYoutubeId: "YOUR_HERO_VIDEO_ID",
-  heroSubPrice: "(Trọn bộ Extension + Khóa học + 5 Quà tặng. Truy cập trọn đời)",
+  heroSubPrice: "(Trọn bộ Extension + Video hướng dẫn & Bộ Prompt + 5 Quà tặng. Truy cập trọn đời)",
 
   // ── Pain (Nỗi đau) ──
   painLabel: "DẤU HIỆU NHẬN BIẾT",
@@ -247,7 +247,7 @@ export const DEFAULT_CONTENT: PageContent = {
 
   // ── Mid CTA ──
   midCtaHeading: "Trải nghiệm cảm giác tự tay tạo ra thước phim hoạt hình Ghibli đầu tiên.",
-  midCtaSub: "Đầu tư một lần, sở hữu trọn bộ Trợ lý AI + Khóa học + Tài nguyên âm thanh. Truy cập trọn đời.",
+  midCtaSub: "Đầu tư một lần, sở hữu trọn bộ Trợ lý AI + Video hướng dẫn & Bộ Prompt + Tài nguyên âm thanh. Truy cập trọn đời.",
   midCtaBtn: "Cài Đặt Trợ Lý GIBI Ngay",
 
   // ── Before & After ──
@@ -310,8 +310,8 @@ export const DEFAULT_CONTENT: PageContent = {
     },
     {
       id: "02",
-      title: "Khóa Học Thực Chiến Dựng Phim Ghibli Bằng CapCut",
-      desc: "Lóng ngóng không biết cắt ghép? Hướng dẫn cầm tay chỉ việc làm chủ CapCut trên cả PC & Mobile. Biến kho ảnh tĩnh thành video hoàn chỉnh, mượt mà chỉ trong 15 phút thao tác."
+      title: "Bộ Video Hướng Dẫn Dựng Phim Ghibli Bằng CapCut",
+      desc: "Lóng ngóng không biết cắt ghép? Hướng dẫn cầm tay chỉ việc làm chủ CapCut trên cả PC & Mobile. Sử dụng các công cụ AI miễn phí của Gemini để tạo phim hoạt hình và biến kho ảnh tĩnh thành video hoàn chỉnh chỉ trong 15 phút."
     },
     {
       id: "03",
@@ -334,12 +334,12 @@ export const DEFAULT_CONTENT: PageContent = {
   urgencyBar: "⚠ ĐẶC QUYỀN ĐĂNG KÝ HÔM NAY — CHỈ CÒN 149.000 VNĐ",
   ctaLabel: "// BƯỚC CUỐI CÙNG",
   ctaHeading: "Hãy để Trợ lý GIBI đồng hành cùng bạn ngay hôm nay.",
-  ctaSub: "Sở hữu trọn bộ Chrome Extension + Khóa học thực chiến + 5 Quà tặng độc quyền — chỉ với mức phí bằng đúng một ly cà phê mỗi ngày trong một tuần. Từ video tiếp theo, bạn sẽ không còn sợ camera nữa.",
+  ctaSub: "Sở hữu trọn bộ Chrome Extension + Video hướng dẫn & Bộ Prompt chuẩn hóa + 5 Quà tặng độc quyền — chỉ với mức phí 149.000đ. Hiểu cách tạo video AI hiệu quả ngay hôm nay.",
   countdownLabel: "⏳ Ưu đãi kết thúc sau:",
   valueStackTitle: "TỔNG GIÁ TRỊ BẠN NHẬN ĐƯỢC:",
   valueStack: [
     { label: "Trợ lý GIBI AI Studio (Chrome Extension)", price: "399.000 VNĐ" },
-    { label: "Khóa Học Lộ Trình Thực Chiến 7 Ngày", price: "350.000 VNĐ" }
+    { label: "Bộ Video Hướng Dẫn & Bộ Prompt AI Chuẩn Hóa", price: "350.000 VNĐ" }
   ],
   guarantee: "Cam kết đồng hành: Bất kể bạn gặp khó khăn nào — từ cài Extension, khóa mặt AI đến dựng CapCut — nhắn Zalo mình sẽ gỡ rối 1-1 cho bạn.",
 

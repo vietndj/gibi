@@ -54,7 +54,7 @@ function RegForm() {
     <form onSubmit={handle} style={{ display: "flex", flexDirection: "column", gap: 16 }}>
       {[
         { name: "name", label: "Họ và tên *", type: "text", placeholder: "Nguyễn Văn A", required: true },
-        { name: "email", label: "Email (để nhận khóa học) *", type: "email", placeholder: "nguyenvana@gmail.com", required: true },
+        { name: "email", label: "Email (để nhận sản phẩm & video hướng dẫn) *", type: "email", placeholder: "nguyenvana@gmail.com", required: true },
         { name: "phone", label: "Số điện thoại *", type: "tel", placeholder: "0912 345 678", required: true },
       ].map((f) => (
         <div key={f.name}>

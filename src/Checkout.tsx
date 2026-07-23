@@ -18,32 +18,24 @@ const GREEN = "#10b981"; // Emerald green for success states
 
 const LANTAN_FAQS = [
   {
-    q: "1. \"Mình mù công nghệ, dùng điện thoại đời cũ thì có theo học được không?\"",
-    a: "Chắc chắn được. Khóa học này không dạy bạn các kỹ xảo phức tạp trên máy tính. Sự \"đắt tiền\" của video đến từ Tư duy Không gian. Mình sẽ hướng dẫn bạn tận dụng tối đa chiếc điện thoại đang có. Chỉ cần setup đúng góc máy và ánh sáng cơ bản, khung hình của bạn sẽ sắc nét và sang trọng không thua gì thợ quay chuyên nghiệp."
+    q: "1. \"Đây có phải là khóa học online kéo dài rườm rà không?\"",
+    a: "Không. Đây KHÔNG PHẢI khóa học lý thuyết suông. Sản phẩm bao gồm: Trợ lý GIBI AI Studio (Chrome Extension) + Bộ Video hướng dẫn thực hành ngắn gọn + Bộ Prompt AI chuẩn hóa. Bạn dùng công cụ AI miễn phí của Gemini để tự làm phim hoạt hình ngay lập tức mà không phải tốn hàng chục giờ ngồi học."
   },
   {
-    q: "2. \"Mình rất ngại lên hình, cứ bật máy quay là đơ cứng và quên kịch bản?\"",
-    a: "Sự đơ cứng đến từ việc bạn đang tự tạo áp lực \"trả bài\" trước ống kính. Mình sẽ hướng dẫn bạn setup góc máy ngồi chéo trò chuyện cực kỳ tự nhiên; và đặc biệt là kỹ thuật dùng Cảnh trám (B-roll). Lỡ nói vấp? Không sao cả, B-roll sẽ đắp vào và che đi mọi vết cắt một cách êm ái. Bạn không cần phải cố gồng mình để \"diễn\"!"
+    q: "2. \"Tôi không biết vẽ hay chưa từng làm video AI thì có làm được không?\"",
+    a: "Hoàn toàn được. Bạn không cần bất kỳ kỹ năng vẽ hay chỉnh sửa phức tạp nào. Chỉ cần xem video hướng dẫn ngắn, copy-paste các câu lệnh Prompt chuẩn hóa vào Gemini miễn phí và nhấn nút 1-Click trên Extension là tạo xong video."
   },
   {
-    q: "3. \"Tôi rất bận kinh doanh, sợ không có thời gian ngồi viết kịch bản?\"",
-    a: "Xây dựng hình ảnh là để tối ưu công việc kinh doanh, không phải để vắt kiệt sức lực của bạn! Khóa học đã tích hợp sẵn Bộ lệnh (Prompt) Trợ lý AI chuyên sâu. Bạn chỉ cần Copy-paste vào ChatGPT hoặc Gemini, AI sẽ tự động trả về kịch bản phân rã 2 cột chi tiết. Rút ngắn 80% thời gian chuẩn bị để bạn rảnh tay làm chuyên môn."
+    q: "3. \"Tôi có phải tốn thêm chi phí duy trì phần mềm AI hàng tháng không?\"",
+    a: "Không. Trợ lý GIBI AI hướng dẫn bạn khai thác tối đa các công cụ AI hoàn toàn miễn phí của Google Gemini để tạo ảnh & video mà không tốn thêm bất kỳ chi phí duy trì hàng tháng nào."
   },
   {
-    q: "4. \"Tôi đã xem rất nhiều hướng dẫn CapCut trên mạng, khóa này có gì khác biệt?\"",
-    a: "Các video miễn phí chỉ dạy bạn \"mẹo vặt\" (bấm hiệu ứng chớp nháy, lật trang 3D). Những thứ đó làm mắt khách hàng mệt mỏi và hạ thấp giá trị thương hiệu. Ở đây, mình trao cho bạn một Khuôn mẫu Kiến trúc Thị giác. Hiểu được gốc rễ TẠI SAO phải dùng góc Cận Cảnh, TẠI SAO phải chuyển cảnh vật lý, bạn sẽ tự chủ sản xuất mà không bao giờ sợ bị nền tảng đổi thuật toán."
+    q: "4. \"Thanh toán 149.000đ xong tôi sẽ nhận sản phẩm như thế nào?\"",
+    a: "Hệ thống thanh toán quét QR tự động 100%. Ngay sau khi chuyển khoản thành công, bạn sẽ nhận được email chứa link tải Extension, Bộ Video hướng dẫn, Bộ Prompt chuẩn hóa và nút tham gia cộng đồng Skool ngay lập tức."
   },
   {
-    q: "5. \"Đầu tư số tiền này liệu có mang lại hiệu quả thực tế không?\"",
-    a: "Hãy làm một phép tính thực tế: Nếu bạn chạy Ads bằng những video lôm côm, phẳng lì, khách lướt qua trong 3 giây... bạn đang đốt tiền quảng cáo mỗi ngày một cách vô ích. Đầu tư khóa học này một lần, bạn đang xây dựng một \"Tấm khiên\" bảo vệ ngân sách chạy Ads, tiết kiệm chi phí thuê Media ngoài và tăng tỷ lệ chuyển đổi dài hạn."
-  },
-  {
-    q: "6. \"Tôi chuyển khoản xong thì bao lâu mới được vào học? Có sợ bị lỗi không?\"",
-    a: "Ngay lập tức. Hệ thống vận hành tự động 100%. Ngay khi bạn quét mã QR thanh toán thành công, tài khoản học sẽ được gửi qua Zalo và Email của bạn chỉ trong vòng 1-2 phút, bất kể là 12h đêm. Bạn có thể mở ra và bắt đầu học ngay lập tức."
-  },
-  {
-    q: "7. \"Nếu tôi học xong, làm theo mà video vẫn không đẹp lên thì sao?\"",
-    a: "Uy tín 15 năm làm nghề của mình được đặt lên hàng đầu. Khóa học có một Cam kết đồng hành bảo vệ rủi ro: Sau khi học, nếu bạn đã setup đúng góc máy, ánh sáng mà video vẫn chưa chuyên nghiệp, hãy gửi video đó qua Zalo. Đích thân mình sẽ quay màn hình \"bắt bệnh\" và sửa lỗi 1-1 cho bạn đến khi ưng ý. Mình nhận rủi ro về phần mình, để bạn yên tâm đầu tư!"
+    q: "5. \"Nếu trong quá trình làm gặp rắc rối kỹ thuật thì có ai hỗ trợ không?\"",
+    a: "Đích thân giảng viên Viet Mac và đội ngũ sẽ hỗ trợ 1-1 qua Zalo & nhóm kín Skool. Bất kỳ vướng mắc nào về cài đặt Extension hay chạy Prompt Gemini đều được gỡ rối ngay."
   }
 ];
 
@@ -457,7 +449,7 @@ function PaymentPanel({ bank, qrUrl, onConfirm, onVideoClick }: { bank: BankInfo
       BACKUP_OLD_GUARANTEE_END */}
 
       <p style={{ fontSize: 15, color: t.textMuted ?? "#555", textAlign: "center", marginTop: 16, marginBottom: 20, lineHeight: 1.6 }}>
-        Link truy cập khóa học gửi qua email trong vài phút sau khi xác nhận.
+        Link truy cập sản phẩm & video hướng dẫn gửi qua email trong vài phút sau khi xác nhận.
       </p>
 
       {/* 💬 Zalo Support Safety Net */}
@@ -721,7 +713,7 @@ function CheckoutContent() {
             </em>
           </h1>
           <p style={{ fontSize: 15, color: t.textMuted ?? "#888", maxWidth: 520, margin: "0 auto 12px", lineHeight: 1.6 }}>
-            Chỉ còn một bước nữa — chuyển khoản và truy cập ngay toàn bộ Extension + Khóa học + 5 quà tặng.
+            Chỉ còn một bước nữa — chuyển khoản và truy cập ngay toàn bộ Extension + Video hướng dẫn & Bộ Prompt + 5 quà tặng.
           </p>
           <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: t.card2, border: `1px solid ${GREEN}33`, borderRadius: 50, padding: "8px 20px" }}>
             <span style={{ color: GREEN, fontSize: 14 }}>✓</span>
@@ -759,7 +751,7 @@ function CheckoutContent() {
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
                 <div>
                   <div style={{ fontWeight: 500, fontSize: 16, color: t.textBase ?? "#fff" }}>Trợ lý GIBI AI Studio</div>
-                  <div style={{ fontSize: 15, color: t.textMuted ?? "#666", marginTop: 4 }}>Extension + Khóa học + Âm thanh Ghibli</div>
+                  <div style={{ fontSize: 15, color: t.textMuted ?? "#666", marginTop: 4 }}>Extension + Video hướng dẫn & Prompt + Âm thanh Ghibli</div>
                 </div>
                 <div style={{ textAlign: "right" }}>
                   <div style={{ fontSize: 15, color: t.accent, fontWeight: 500 }}>Tiết kiệm {formattedSaving} VNĐ</div>
