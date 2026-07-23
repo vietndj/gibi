@@ -21,53 +21,39 @@ export function CycleSection() {
       </FadeIn>
 
       <FadeIn delay={100}>
-        {c.cycleItems[0] && (
-          <div style={{
-            background: `linear-gradient(135deg, ${t.accent}0a, transparent)`,
-            border: `1px solid ${t.accent}33`,
-            borderRadius: t.cardRadius,
-            padding: "48px",
-            textAlign: "center",
-            maxWidth: 720,
-            margin: "0 auto 48px",
-            position: "relative",
-            overflow: "hidden"
-          }}>
-            <div style={{
-              position: "absolute",
-              top: "-50%",
-              left: "50%",
-              transform: "translateX(-50%)",
-              width: "80%",
-              height: "200%",
-              background: `radial-gradient(ellipse at top, ${t.accent}15, transparent 70%)`,
-              pointerEvents: "none",
-            }} />
-            
-            <h3 style={{ 
-              fontFamily: t.fontBody, 
-              fontSize: 26, 
-              fontWeight: 500, 
-              color: "#fff", 
-              marginBottom: 20,
-              letterSpacing: "-0.02em",
-              maxWidth: 500,
-              margin: "0 auto 20px"
+        <div style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 720, margin: "0 auto 48px" }}>
+          {c.cycleItems.map((item, idx) => (
+            <div key={idx} style={{
+              background: `linear-gradient(135deg, ${t.accent}0a, transparent)`,
+              border: `1px solid ${t.accent}33`,
+              borderRadius: t.cardRadius,
+              padding: "24px 28px",
+              textAlign: "left",
+              position: "relative",
+              overflow: "hidden"
             }}>
-              {c.cycleItems[0].fail}
-            </h3>
-            
-            <p style={{ 
-              fontSize: 19, 
-              lineHeight: 1.85, 
-              color: "#cbd5e1", 
-              margin: 0,
-              fontWeight: 400 
-            }}>
-              {c.cycleItems[0].why}
-            </p>
-          </div>
-        )}
+              <h3 style={{ 
+                fontFamily: t.fontBody, 
+                fontSize: 19, 
+                fontWeight: 500, 
+                color: "#fff", 
+                marginBottom: 8,
+                letterSpacing: "-0.018em"
+              }}>
+                {item.fail}
+              </h3>
+              <p style={{ 
+                fontSize: 16, 
+                lineHeight: 1.75, 
+                color: "#cbd5e1", 
+                margin: 0,
+                fontWeight: 400 
+              }}>
+                👉 {item.why}
+              </p>
+            </div>
+          ))}
+        </div>
       </FadeIn>
     </Sec>
   );

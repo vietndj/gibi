@@ -248,7 +248,7 @@ export function SolutionSection() {
             </div>
           ))}
           <div style={{ marginTop: 32, textAlign: "center" }}>
-            <CtaButton label="Nâng Cấp Gu Hình Ảnh Ngay" />
+            <CtaButton label="Sở Hữu Trợ Lý GIBI AI Ngay" />
           </div>
         </div>
       </FadeIn>
