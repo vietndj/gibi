@@ -137,8 +137,8 @@ export const DEFAULT_CONTENT: PageContent = {
   heroHeadline1: "Biến Câu Chuyện Của Bạn",
   heroHeadline2: "Thành thước phim hoạt hình Ghibli\nnghệ thuật mà không cần lộ mặt.",
   heroPoem: [
-    "Không cần lộ diện trước ống kính,",
-    "AI vẽ Ghibli, chuyện mình kể hay."
+    "Chẳng cần lộ mặt trước quay,",
+    "Ghibli AI vẽ, đắp xây chuyện mình."
   ],
   heroAccentLine: "Thứ tạo ra video hoạt hình triệu view không phải kỹ năng vẽ hay phần mềm đắt tiền.",
   heroSub: "Phần lớn người muốn làm video kể chuyện không kém về ý tưởng. Họ kẹt vì sợ camera, vì nhân vật AI bị lệch mặt mỗi cảnh, và vì quy trình AI quá rối rắm. Trợ lý GIBI AI giải quyết đúng ba thứ đó.",

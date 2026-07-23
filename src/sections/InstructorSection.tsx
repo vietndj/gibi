@@ -38,13 +38,7 @@ export function InstructorSection() {
               }}>
                 15 năm giảng dạy
               </div>
-              <div style={{
-                display: "inline-block", background: "rgba(16, 185, 129, 0.12)", border: "1px solid rgba(16, 185, 129, 0.4)",
-                borderRadius: 40, padding: "5px 14px", fontSize: 12, color: "#10b981",
-                fontWeight: 600, letterSpacing: "0.03em",
-              }}>
-                ✨ Tác giả Bản Cập nhật Tháng 7/2026
-              </div>
+
             </div>
           </div>
 
