@@ -44,17 +44,17 @@ export function InstructorSection() {
 
           <div style={{ flex: 1, minWidth: 260, display: "flex", flexDirection: "column", gap: 0 }}>
             <p style={{ fontSize: 13, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--cl-text-muted, #666)", fontFamily: "monospace", marginBottom: 24, lineHeight: 1.8 }}>
-              KỸ SƯ CÔNG NGHỆ PHẦN MỀM (ĐH BÁCH KHOA). 15 NĂM<br />GIẢNG VIÊN MỸ THUẬT ĐA PHƯƠNG TIỆN TẠI FPT ARENA.
+              KỸ SƯ CÔNG NGHỆ PHẦN MỀM (ĐH BÁCH KHOA) • 15 NĂM<br />GIẢNG VIÊN MỸ THUẬT ĐA PHƯƠNG TIỆN TẠI FPT ARENA
             </p>
             
             <div style={{ height: 1, background: "var(--cl-line)", marginBottom: 24 }} />
             
             <div style={{ marginBottom: 24 }}>
               <p style={{ fontSize: 17, lineHeight: 1.7, color: "#94a3b8", fontWeight: 400, margin: "0 0 16px 0" }}>
-                Rào cản lớn nhất của người mới không phải là thiếu thiết bị xịn.
+                Rào cản lớn nhất khi làm video AI không phải là thiếu ý tưởng hay khả năng vẽ.
               </p>
               <p style={{ fontSize: 17, lineHeight: 1.7, color: "#fff", fontWeight: 500, margin: 0 }}>
-                Mà là bị quá tải bởi những lý thuyết dựng phim rườm rà.
+                Mà là bị kẹt vì nhân vật AI bị biến dạng lệch mặt và quy trình công cụ quá rườm rà.
               </p>
             </div>
 
@@ -62,10 +62,10 @@ export function InstructorSection() {
 
             <div style={{ marginBottom: 0 }}>
               <p style={{ fontSize: 17, lineHeight: 1.7, color: "#94a3b8", fontWeight: 400, margin: "0 0 16px 0" }}>
-                Khóa học này không có định nghĩa hàn lâm.
+                Trợ lý GIBI AI Studio được đóng gói để đơn giản hóa mọi công đoạn.
               </p>
               <p style={{ fontSize: 17, lineHeight: 1.7, color: "#fff", fontWeight: 500, margin: 0 }}>
-                Chỉ có những quy luật trực quan nhất — để bạn cầm máy lên là quay được ngay.
+                Giúp bạn tự tay làm nên những thước phim hoạt hình Ghibli mang đậm dấu ấn cá nhân mà không cần lộ mặt.
               </p>
             </div>
           </div>
