@@ -283,7 +283,7 @@ export const DEFAULT_CONTENT: PageContent = {
   stages: [
     { n: "[1]", title: "Ép Khuôn & Khóa Mặt Bất Biến", desc: "Phân tích cấu trúc xương hàm, kiểu tóc để đóng băng khuôn mặt thật thành hằng số AI. Đạt độ giống mặt thật lên đến 95%.", sub: "Ngày 1 — Sở hữu nhân vật Ghibli độc bản" },
     { n: "[2]", title: "Lập Lưới Storyboard & Kịch Bản", desc: "Xây dựng phân cảnh 16 ô (Lưới 4x4) để AI vẽ toàn bộ diễn biến đồng bộ. Bóc tách kịch bản voiceover khớp thời lượng.", sub: "Ngày 2 — Kịch bản & phân cảnh hoàn chỉnh" },
-    { n: "[3]", title: "Đạo Diễn Thực Địa & Bối Cảnh Anime", desc: "Chụp ảnh Live-action bằng điện thoại để AI bóc tách trang phục, tư thế và bối cảnh thành nét vẽ Ghibli.", sub: "Ngày 3-4 — Cá nhân hóa bối cảnh & hình ảnh" },
+    { n: "[3]", title: "Biến Bối Cảnh Thật Thành Phim Hoạt Hình", desc: "Chụp ảnh đời thực của bạn (trang phục, góc làm việc, không gian sống). AI tự động chuyển hóa thành phim hoạt hình Ghibli — nơi nhân vật chính là chính bạn và bối cảnh hoàn toàn từ cuộc sống thực của bạn.", sub: "Ngày 3-4 — Cá nhân hóa nhân vật & bối cảnh thực" },
     { n: "[4]", title: "Đạo Diễn Chuyển Động Veo 3", desc: "Cầu nối tự động trích xuất Code Prompt sang Google Flow. Viết lệnh camera anime nghệ thuật kiểu Miyazaki, nạp First Frame chuẩn xác.", sub: "Ngày 5-6 — Biến ảnh tĩnh thành video sống động" },
     { n: "[5]", title: "Hậu Kỳ CapCut & Ghép Âm Thanh Ghibli", desc: "Cầm tay chỉ việc dựng CapCut. Cắt ghép nhịp điệu phim lôi cuốn, thêm phụ đề tự động và lồng nhạc Ghibli lấy nước mắt người xem.", sub: "Ngày 7 — Video hoàn chỉnh, sẵn sàng xuất bản" }
   ],
