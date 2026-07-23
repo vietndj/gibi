@@ -188,7 +188,7 @@ function PaymentSuccessModal({ onClose }: { onClose: () => void }) {
             fontSize: 15, fontWeight: 500, cursor: "pointer",
             boxShadow: `0 0 24px ${t.accent}66`,
           }}>
-            🚀 Vào Cộng Đồng Skool Ngay
+            🚀 Vào Trạm Bảo Hành & Kho Prompt (Skool)
           </button>
           <button onClick={() => window.location.href = "/"} style={{
             background: "transparent", color: t.textMuted ?? "#888", border: `1px solid ${t.line}`,
@@ -766,7 +766,7 @@ function CheckoutContent() {
                 "Khóa học Dựng phim Ghibli bằng CapCut (PC & Mobile)",
                 "Bộ 50 Mẫu Kịch bản Kể chuyện Hành trình Cá nhân",
                 "Bản Đồ Logic Quy Trình Dựng Video AI (Đầu vào dữ liệu & Công cụ)",
-                "Quyền tham gia Cộng đồng Skool",
+                "Quyền truy cập Trạm Bảo Hành & Kho Update Prompt GIBI (Skool)",
               ]).map((item: string, i: number) => <Ck key={i}>{item}</Ck>)}
             </Card>
 

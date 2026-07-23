@@ -15,12 +15,12 @@ const PROOFS = [
   "Chị Mai (Bắc Ninh) vừa tạo chuyển động mượt mà qua Google Flow Veo 3 🎥",
   "Team Media Tuấn (Cần Thơ) đang ghép nhạc Ghibli vào CapCut cho video triệu view 🎶",
 
-  // NHÓM 3: GIAO DỊCH & CỘNG ĐỒNG SKOOL
-  "Hải Đăng (Hà Nội) vừa tham gia Cộng đồng Skool 🏛️",
+  // NHÓM 3: GIAO DỊCH & KHO PROMPT SKOOL
+  "Hải Đăng (Hà Nội) vừa nhận quyền truy cập Kho Prompt & Trạm Bảo Hành GIBI 🏛️",
   "Chị Trâm Anh (Đà Lạt) vừa thanh toán 149.000đ, nhận ID kích hoạt sau 1 phút ⚡",
-  "Anh Sơn (Nha Trang) vừa được giảng viên Viet Mac hỗ trợ Zalo 1-1 gỡ rối cài Extension 🤝",
-  "Bác sĩ Khánh (Hà Nội) vừa xuất bản video hoạt hình Ghibli kể chuyện không cần lộ mặt 🌟",
-  "Chị Phương (Đồng Nai) vừa quét QR thanh toán tự động, vào học ngay trên Skool 📩"
+  "Anh Sơn (Nha Trang) vừa được tác giả Viet Mac hỗ trợ Zalo 1-1 gỡ rối cài Extension 🤝",
+  "Bác sĩ Khánh (Hà Nội) vừa xuất bản video hoạt hình Ghibli kể chuyện cực nghệ thuật 🌟",
+  "Chị Phương (Đồng Nai) vừa quét QR thanh toán tự động, nhận Link Extension & Kho Prompt ⚡"
 ];
 
 const TIME_LABELS = [

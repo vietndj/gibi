@@ -325,8 +325,8 @@ export const DEFAULT_CONTENT: PageContent = {
     },
     {
       id: "05",
-      title: "Quyền Tham Gia Cộng Đồng Skool",
-      desc: "Tham gia nhóm kín trên Skool để xem video hướng dẫn, hỏi đáp thắc mắc, giao lưu cùng mọi người và nhận sự hỗ trợ trực tiếp từ tác giả Viet Mac trong quá trình thực hành."
+      title: "Quyền Truy Cập Trạm Bảo Hành & Kho Update Prompt GIBI (Skool)",
+      desc: "Nơi tải Extension bản mới nhất vĩnh viễn, truy cập kho Prompt AI cập nhật liên tục theo trend và nhận sự hỗ trợ kỹ thuật trực tiếp 1-1 từ tác giả Viet Mac."
     }
   ],
 
@@ -376,11 +376,11 @@ export const DEFAULT_CONTENT: PageContent = {
     },
     {
       q: "4. \"Thanh toán 149.000đ xong tôi sẽ nhận sản phẩm như thế nào?\"",
-      a: "Hệ thống thanh toán quét QR tự động 100%. Ngay sau khi chuyển khoản thành công, bạn sẽ nhận được email chứa link tải Extension, Bộ Video hướng dẫn, Bộ Prompt chuẩn hóa và nút tham gia cộng đồng Skool ngay lập tức."
+      a: "Hệ thống thanh toán quét QR tự động 100%. Ngay sau khi chuyển khoản thành công, bạn sẽ nhận được email chứa link tải Extension, Bộ Video hướng dẫn, Kho Prompt chuẩn hóa và quyền truy cập Trạm Bảo Hành & Cập Nhật Skool ngay lập tức."
     },
     {
       q: "5. \"Nếu trong quá trình làm gặp rắc rối kỹ thuật thì có ai hỗ trợ không?\"",
-      a: "Đích thân tác giả Viet Mac và đội ngũ sẽ hỗ trợ 1-1 qua Zalo & nhóm kín Skool. Bất kỳ vướng mắc nào về cài đặt Extension hay chạy Prompt Gemini đều được gỡ rối ngay."
+      a: "Đích thân tác giả Viet Mac và đội ngũ sẽ hỗ trợ 1-1 qua Zalo & Trạm Kỹ Thuật Skool. Bất kỳ vướng mắc nào về cài đặt Extension hay chạy Prompt Gemini đều được gỡ rối ngay."
     }
   ],
 
