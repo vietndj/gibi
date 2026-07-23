@@ -311,20 +311,14 @@ function PaymentPanel({ bank, qrUrl, onConfirm, onVideoClick }: { bank: BankInfo
         background: "rgba(249, 115, 22, 0.08)",
         border: "1px solid #f97316",
         borderRadius: 14,
-        padding: "18px 16px",
+        padding: "14px 16px",
         marginBottom: 20,
-        textAlign: "left",
+        textAlign: "center",
         boxShadow: "0 0 30px rgba(249, 115, 22, 0.2)"
       }}>
-        <div style={{ fontSize: 14, fontWeight: 500, color: "#f97316", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 12, textAlign: "center" }}>
-          🎁 HỖ TRỢ TRỰC TIẾP TỪ GIẢNG VIÊN (CHỈ CÒN 9 BẠN)
+        <div style={{ fontSize: 14, fontWeight: 500, color: "#f97316", textTransform: "uppercase", letterSpacing: "0.05em", margin: 0 }}>
+          🎁 HỖ TRỢ TRỰC TIẾP TỪ GIẢNG VIÊN
         </div>
-        <p style={{ fontSize: 13, color: "#fff", margin: "0 0 10px", lineHeight: 1.5, fontWeight: 500 }}>
-          Đợt này sản phẩm mới ra mắt nên mình đặc biệt <strong>hỗ trợ Zalo 1-1</strong> cho anh em. Cài Extension xong cứ add Zalo mình, kẹt chỗ nào mình gỡ chỗ đó.
-        </p>
-        <p style={{ fontSize: 12, color: "#f97316", margin: 0, lineHeight: 1.5, fontStyle: "italic" }}>
-          (Mình còn phải đứng lớp trên trường nên quỹ thời gian có hạn, đợt này chỉ dám nhận hỗ trợ 1-1 thêm đúng 9 bạn nữa cho chu đáo. Anh em tranh thủ nhé, thông tin Zalo có trong email kích hoạt!)
-        </p>
       </div>
       {/* 📱 [Khối Mã QR & Thanh Toán] (Ở giữa, to nhất) */}
       <div style={{ textAlign: "center", marginBottom: 20 }}>
