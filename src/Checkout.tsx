@@ -794,17 +794,17 @@ function CheckoutContent() {
                 { 
                   name: "Chị Thu Lan", 
                   role: "Chủ shop Thời trang nữ (Hà Nội)", 
-                  text: "Đúng là biết thế đăng ký học sớm cho đỡ tốn tiền đi mua điện thoại mới. Mình quay bằng con máy cũ mà áp dụng cách setup 2 cái đèn của thầy xong, lên hình nhìn da dẻ nổi khối đắt tiền hẳn. Bữa đăng video lên mấy khách quen còn nhắn tin hỏi 'Nay shop đầu tư thuê studio quay à' =)) Hình ảnh sang lên cái là khách tin tưởng, chốt đơn cũng dễ hơn hẳn." 
+                  text: "Thề luôn là cứu tinh của mình! Trước ngại quay video lộ mặt kinh khủng vì không biết ăn nói trước camera. Dùng Trợ lý GIBI chụp vài cái ảnh góc shop với đồ thật, AI biến thành hoạt hình Ghibli siêu đẹp mà nhân vật giữ nguyên nét mặt giống mình 95%. Đăng video hoạt hình kể chuyện bán hàng lên TikTok view tăng vọt, khách inbox chốt đơn rầm rầm!" 
                 },
                 { 
                   name: "Anh Minh Đức", 
                   role: "Đào tạo Kỹ năng & Tư vấn (Đà Nẵng)", 
-                  text: "Sợ nhất cái khoản cứ nhìn thẳng vào ống kính là mắt lác lác xong đơ như khúc gỗ, quay chục lần mới xong cái clip. Áp dụng cái bài đổi góc quay chéo chéo giống đang trò chuyện, xong biết cách lấy cảnh trám lấp liếm mấy chỗ nói vấp, giờ làm video tự nhiên và đĩnh đạc hơn bao nhiêu. Đặc biệt quả Trợ lý AI kịch bản nhàn thật sự, ném chủ đề vào là ra kịch bản quay luôn. Đáng đồng tiền bát gạo!" 
+                  text: "Trước giờ cứ ngại làm video vì tạo ảnh AI bằng Midjourney hay ChatGPT toàn bị lệch mặt giữa các cảnh. Trợ lý GIBI AI này bá đạo thực sự, khóa mặt chuẩn đét qua 16 phân cảnh. Bộ prompt chuẩn hóa với video hướng dẫn cực kỳ ngắn gọn, dùng Gemini miễn phí mà ra video hoạt hình mượt vô lý. Rất đáng đồng tiền bát gạo!" 
                 },
                 { 
                   name: "Quốc Bảo", 
                   role: "Kinh doanh & Phân phối Mỹ phẩm (TP. HCM)", 
-                  text: "Hồi xưa mình cứ thấy người ta làm hiệu ứng giật giật lật trang trên Tiktok là đú theo, chả hiểu sao chạy quảng cáo toàn lỗ. Xem bài cỡ cảnh với luật nhịp điệu 3 giây mới vỡ lẽ ra, bán hàng là video phải êm ái khách mới chịu xem. Đổi góc quay cận cảnh sản phẩm mượt mượt tí, dạo này chạy Ads chi phí ra tin nhắn giảm hẳn mà khách chốt đều, không hỏi lằng nhằng nhiều nữa. Cảm ơn thầy!" 
+                  text: "Lúc đầu tưởng làm phim hoạt hình AI phải rườm rà phức tạp lắm, ai ngờ làm theo đúng video hướng dẫn bấm 1-Click trên Extension là xong. Ghép thêm kho nhạc Ghibli lồng vào CapCut làm video chạy Ads vừa nghệ thuật vừa giữ chân người xem tuyệt đối. Chi phí Ads giảm một nửa mà khách chốt đều đặn. Cảm ơn Viet Mac!" 
                 },
               ]).map((testimonial: any, i: number) => (
                 <div key={i} style={{ borderTop: i === 0 ? "none" : `1px solid ${t.line}`, paddingTop: i === 0 ? 0 : 16, marginBottom: 16 }}>

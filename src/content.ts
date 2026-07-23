@@ -343,6 +343,24 @@ export const DEFAULT_CONTENT: PageContent = {
   ],
   guarantee: "Cam kết đồng hành: Bất kể bạn gặp khó khăn nào — từ cài Extension, khóa mặt AI đến dựng CapCut — nhắn Zalo mình sẽ gỡ rối 1-1 cho bạn.",
 
+  checkoutTestimonials: [
+    { 
+      name: "Chị Thu Lan", 
+      role: "Chủ shop Thời trang nữ (Hà Nội)", 
+      text: "Thề luôn là cứu tinh của mình! Trước ngại quay video lộ mặt kinh khủng vì không biết ăn nói trước camera. Dùng Trợ lý GIBI chụp vài cái ảnh góc shop với đồ thật, AI biến thành hoạt hình Ghibli siêu đẹp mà nhân vật giữ nguyên nét mặt giống mình 95%. Đăng video hoạt hình kể chuyện bán hàng lên TikTok view tăng vọt, khách inbox chốt đơn rầm rầm!" 
+    },
+    { 
+      name: "Anh Minh Đức", 
+      role: "Đào tạo Kỹ năng & Tư vấn (Đà Nẵng)", 
+      text: "Trước giờ cứ ngại làm video vì tạo ảnh AI bằng Midjourney hay ChatGPT toàn bị lệch mặt giữa các cảnh. Trợ lý GIBI AI này bá đạo thực sự, khóa mặt chuẩn đét qua 16 phân cảnh. Bộ prompt chuẩn hóa với video hướng dẫn cực kỳ ngắn gọn, dùng Gemini miễn phí mà ra video hoạt hình mượt vô lý. Rất đáng đồng tiền bát gạo!" 
+    },
+    { 
+      name: "Quốc Bảo", 
+      role: "Kinh doanh & Phân phối Mỹ phẩm (TP. HCM)", 
+      text: "Lúc đầu tưởng làm phim hoạt hình AI phải rườm rà phức tạp lắm, ai ngờ làm theo đúng video hướng dẫn bấm 1-Click trên Extension là xong. Ghép thêm kho nhạc Ghibli lồng vào CapCut làm video chạy Ads vừa nghệ thuật vừa giữ chân người xem tuyệt đối. Chi phí Ads giảm một nửa mà khách chốt đều đặn. Cảm ơn Viet Mac!" 
+    }
+  ],
+
   // ── Footer ──
   footerBrand: "GIBI",
   footerDot: ".",
