@@ -162,12 +162,13 @@ export function DiscoverySection() {
         <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
           {c.discoveryItems.map((item, i) => {
             const isEven = i % 2 === 1;
-            const isPlaceholder = item.gif.includes("unsplash.com");
+            const hasMedia = Boolean(item.gif || item.placeholderLabel);
+            const isPlaceholder = item.gif ? item.gif.includes("unsplash.com") : false;
             return (
               <div key={i} style={{
                 background: "var(--cl-card)", border: `1px solid var(--cl-line)`,
                 borderRadius: t.cardRadius, padding: isMobile ? "24px" : "32px",
-                display: "grid", gridTemplateColumns: isMobile ? "1fr" : isEven ? "0.9fr 1.1fr" : "1.1fr 0.9fr",
+                display: "grid", gridTemplateColumns: isMobile || !hasMedia ? "1fr" : isEven ? "0.9fr 1.1fr" : "1.1fr 0.9fr",
                 gap: isMobile ? "24px" : "40px", alignItems: "center"
               }}>
                 <div style={{ display: "flex", flexDirection: "column", gap: 16, order: isMobile ? 1 : isEven ? 2 : 1 }}>
@@ -181,33 +182,37 @@ export function DiscoverySection() {
                     {item.desc}
                   </p>
                 </div>
-                <div style={{
-                  order: isMobile ? 2 : isEven ? 1 : 2, width: "100%", aspectRatio: "4 / 5",
-                  borderRadius: 12, overflow: "hidden", border: `1px solid var(--cl-line)`,
-                  position: "relative", background: "var(--cl-card2)", display: "flex",
-                  alignItems: "center", justifyContent: "center", cursor: "pointer",
-                }} className="discovery-gif-container">
-                  <img src={item.gif} alt={item.placeholderLabel} loading="lazy" style={{
-                    width: "100%", height: "100%", objectFit: "cover",
-                    opacity: isPlaceholder ? 0.28 : 1, filter: isPlaceholder ? "grayscale(100%) contrast(1.1)" : "none",
-                    transition: "all 0.4s ease"
-                  }} />
-                  {isPlaceholder && (
-                    <div style={{
-                      position: "absolute", inset: 0, background: "radial-gradient(circle at center, transparent 30%, rgba(7,9,14,0.75) 100%)",
-                      display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 16, textAlign: "center"
-                    }}>
-                      <span style={{ fontSize: 24, marginBottom: 8, filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.5))" }}>🎬</span>
-                      <span style={{
-                        fontFamily: t.fontMono, fontSize: 12, fontWeight: 500, color: "var(--cl-accent)", letterSpacing: "0.05em",
-                        background: "rgba(0,240,255,0.08)", border: `1px solid rgba(0,240,255,0.2)`, padding: "8px 14px",
-                        borderRadius: 20, backdropFilter: "blur(4px)", textTransform: "uppercase"
+                {hasMedia && (
+                  <div style={{
+                    order: isMobile ? 2 : isEven ? 1 : 2, width: "100%", aspectRatio: "4 / 5",
+                    borderRadius: 12, overflow: "hidden", border: `1px solid var(--cl-line)`,
+                    position: "relative", background: "var(--cl-card2)", display: "flex",
+                    alignItems: "center", justifyContent: "center", cursor: "pointer",
+                  }} className="discovery-gif-container">
+                    {item.gif && (
+                      <img src={item.gif} alt={item.placeholderLabel || item.title} loading="lazy" style={{
+                        width: "100%", height: "100%", objectFit: "cover",
+                        opacity: isPlaceholder ? 0.28 : 1, filter: isPlaceholder ? "grayscale(100%) contrast(1.1)" : "none",
+                        transition: "all 0.4s ease"
+                      }} />
+                    )}
+                    {isPlaceholder && (
+                      <div style={{
+                        position: "absolute", inset: 0, background: "radial-gradient(circle at center, transparent 30%, rgba(7,9,14,0.75) 100%)",
+                        display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 16, textAlign: "center"
                       }}>
-                        {item.placeholderLabel}
-                      </span>
-                    </div>
-                  )}
-                </div>
+                        <span style={{ fontSize: 24, marginBottom: 8, filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.5))" }}>🎬</span>
+                        <span style={{
+                          fontFamily: t.fontMono, fontSize: 12, fontWeight: 500, color: "var(--cl-accent)", letterSpacing: "0.05em",
+                          background: "rgba(0,240,255,0.08)", border: `1px solid rgba(0,240,255,0.2)`, padding: "8px 14px",
+                          borderRadius: 20, backdropFilter: "blur(4px)", textTransform: "uppercase"
+                        }}>
+                          {item.placeholderLabel}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
             );
           })}

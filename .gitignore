@@ -10,3 +10,4 @@ dist
 *.txt
 *.py
 vie.traineddata
+.env*
