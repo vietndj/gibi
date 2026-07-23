@@ -123,51 +123,6 @@ export function HeroSection() {
           }}>
             {c.heroSub}
           </p>
-
-          <div style={{
-            display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 24,
-            width: "100%", maxWidth: 820, margin: "48px auto 0", textAlign: "left",
-          }}>
-            {/* Pillar 1 */}
-            <div style={{
-              background: "var(--cl-card)", border: `1px solid var(--cl-line)`, borderLeft: `3px solid var(--cl-accent)`,
-              borderRadius: t.cardRadius, padding: "32px 28px", display: "flex", flexDirection: "column", gap: 12,
-              transition: "transform 0.2s ease, border-color 0.2s ease",
-            }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                <span style={{ fontSize: 20 }}>🎬</span>
-                <span style={{ fontFamily: t.fontMono, fontSize: 12, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--cl-accent)", fontWeight: 500 }}>
-                  TRỤ CỘT 1: QUAY DỰNG CUỐN HÚT
-                </span>
-              </div>
-              <h3 style={{ fontFamily: t.fontBody, fontSize: 24, fontWeight: 500, color: "#fff", margin: "4px 0 0", letterSpacing: "-0.015em" }}>
-                Cắt Ghép Chỉn Chu
-              </h3>
-              <p style={{ fontSize: 18, lineHeight: 1.75, color: "#e2e8f0", margin: 0 }}>
-                {c.products?.[0]?.desc ?? ""}
-              </p>
-            </div>
-
-            {/* Pillar 2 */}
-            <div style={{
-              background: "var(--cl-card)", border: `1px solid var(--cl-line)`, borderLeft: `3px solid var(--cl-accent)`,
-              borderRadius: t.cardRadius, padding: "32px 28px", display: "flex", flexDirection: "column", gap: 12,
-              transition: "transform 0.2s ease, border-color 0.2s ease",
-            }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                <span style={{ fontSize: 20 }}>💡</span>
-                <span style={{ fontFamily: t.fontMono, fontSize: 12, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--cl-accent)", fontWeight: 500 }}>
-                  TRỤ CỘT 2: NÂNG TẦM THẨM MỸ
-                </span>
-              </div>
-              <h3 style={{ fontFamily: t.fontBody, fontSize: 24, fontWeight: 500, color: "#fff", margin: "4px 0 0", letterSpacing: "-0.015em" }}>
-                Dựng Cảnh Có Gu
-              </h3>
-              <p style={{ fontSize: 18, lineHeight: 1.75, color: "#e2e8f0", margin: 0 }}>
-                {c.products?.[1]?.desc ?? ""}
-              </p>
-            </div>
-          </div>
         </FadeIn>
       </section>
     </>
